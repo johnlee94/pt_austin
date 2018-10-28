@@ -66,7 +66,7 @@ In general, if we have a variable name with multiple words, we use..
 Variables cannot start with a number either! In the second code var 5m =4, Javascript has no idea
 whether or not you are trying to assign 5 as a variable name or simply referring to the number 5 itself.
 
-Lastly, in the final line of code above, because let is a special keyword already built
+Lastly, in the final line of code above, because let is a specially reserved keyword already built
 into Javascript, you cannot use it as a variable name. There are many special keywords in Javascript that you
 as a coder will figure out as you code more and more.
 
