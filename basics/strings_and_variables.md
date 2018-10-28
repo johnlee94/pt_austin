@@ -7,6 +7,7 @@ Variables are used to store a value to a keyword.
 
 In Javascript, we have special words such as var, const, and let!
 
+In JS, we use the single equal sign "=" to *assign*
 
 ```
 var name = "Austin"
@@ -22,8 +23,6 @@ What happens when we:
 console.log(name)
 ```
 
-
-<br>
 <br>
 
 Variable names should be something that makes sense to its corresponding value.
@@ -53,3 +52,6 @@ In general, if we have a variable name with multiple words, we use..
 <li>"Camel Case": myFirstName</li>
 <li>"Snake Case": my_first_name</li>
 </ul>
+
+<br>
+Variables can be ***reassigned***
