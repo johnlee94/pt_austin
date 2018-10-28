@@ -57,4 +57,22 @@ even or odd.
 //40 is an even number.
 40%2
 //This returns 0, because 2 goes into 40 evenly.
+
+//53 is an odd number?
+53%2
+```
+
+---
+One quick note about the order of operations in Javascript...
+
+Javascript math operations follow the PEMDAS rule and evaluate left to right.
+
+In our console, what do we get when we run:
+```
+40 + 5 * 2
+```
+
+What do we get when we run:
+```
+(40 + 5) * 2
 ```
