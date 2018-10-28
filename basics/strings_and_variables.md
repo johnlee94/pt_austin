@@ -5,9 +5,11 @@
 
 Variables are used to store a value to a keyword.
 
-In Javascript, we have special words such as var, const, and let!
+In Javascript, we have special words such as *var, const, and let!*
 
-In JS, we use the single equal sign "=" to *assign*
+In JS, we use the single equals sign "=" to *assign* a value to a variable.
+
+This is called *variable assignment*!!
 
 ```
 var name = "Austin"
@@ -54,4 +56,14 @@ In general, if we have a variable name with multiple words, we use..
 </ul>
 
 <br>
-Variables can be ***reassigned***
+Naturally, variables can be *reassigned* to a new value.
+
+```
+var favoriteColor = "red";
+
+console.log(favoriteColor);
+
+favoriteColor = "blue";
+
+console.log(favoriteColor);
+```
