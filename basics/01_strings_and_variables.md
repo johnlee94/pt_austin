@@ -3,7 +3,7 @@
 
 ### Variables
 
-Variables are used to store a value to a keyword.
+Variables are used to store a value to a variable name.
 
 In Javascript, we have special words such as *var, const, and let!*
 
@@ -40,17 +40,18 @@ later!
 
 Variables must start with a letter, $, or _
 Note that $ and _ are special characters in Javascript used to indicate to other programmers
-who may be reading your code, that the variable is some special type.
+who may be reading your code, that the variable is some special type. Other special characters
+such as & are invalid in variable naming!
 
 Variables also cannot have any spaces!
 
-In fact
-
-What happens if we try to do...
+In fact, what happens if we try to do...
 ```
 var first name = "Sam"
 
-var 5 = 4
+var 5m = 4
+
+var let = "something?"
 ```
 
 Returns errors! With Sam, Javascript thinks that the variable name is simply the word "first",
@@ -62,8 +63,12 @@ In general, if we have a variable name with multiple words, we use..
 <li>"Snake Case": my_first_name</li>
 </ul>
 
-Variables cannot start with a number either! In the second code var 5 =4, Javascript has no idea
+Variables cannot start with a number either! In the second code var 5m =4, Javascript has no idea
 whether or not you are trying to assign 5 as a variable name or simply referring to the number 5 itself.
+
+Lastly, in the final line of code above, because let is a special keyword already built
+into Javascript, you cannot use it as a variable name. There are many special keywords in Javascript that you
+as a coder will figure out as you code more and more.
 
 <br>
 Naturally, variables can be *reassigned* to a new value.
