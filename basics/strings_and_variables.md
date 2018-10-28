@@ -47,3 +47,9 @@ var first name = "Sam"
 
 Returns an error! Javascript thinks that the variable name is simply the word "first",
 and that we are trying to reassign a variable "name" that already exists to another value "Sam"...
+
+In general, if we have a variable name with multiple words, we use..
+<ul>
+<li>"Camel Case": myFirstName</li>
+<li>"Snake Case": my_first_name</li>
+</ul>
