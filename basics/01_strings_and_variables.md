@@ -38,15 +38,22 @@ grocery_list = ["eggs", "milk", "rice", "kimchi", "bread"]
 The value of the variable grocery_list is an array. We will go over what an array is
 later!
 
-Variables cannot have numbers in front of them "1my_variable" and cannot have
-any spaces.
+Variables must start with a letter, $, or _
+Note that $ and _ are special characters in Javascript used to indicate to other programmers
+who may be reading your code, that the variable is some special type.
+
+Variables also cannot have any spaces!
+
+In fact
 
 What happens if we try to do...
 ```
 var first name = "Sam"
+
+var 5 = 4
 ```
 
-Returns an error! Javascript thinks that the variable name is simply the word "first",
+Returns errors! With Sam, Javascript thinks that the variable name is simply the word "first",
 and that we are trying to reassign a variable "name" that already exists to another value "Sam"...
 
 In general, if we have a variable name with multiple words, we use..
@@ -54,6 +61,9 @@ In general, if we have a variable name with multiple words, we use..
 <li>"Camel Case": myFirstName</li>
 <li>"Snake Case": my_first_name</li>
 </ul>
+
+Variables cannot start with a number either! In the second code var 5 =4, Javascript has no idea
+whether or not you are trying to assign 5 as a variable name or simply referring to the number 5 itself.
 
 <br>
 Naturally, variables can be *reassigned* to a new value.
