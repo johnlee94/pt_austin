@@ -51,7 +51,9 @@ of web pages. Javascript files look something like: scripts.js
 They are denoted by the .js file extension type.
 
 
-**TUTORIAL** React Tic Tac Toe Game.
+**TUTORIAL**
+
+[React Tic Tac Toe Game](http://negomi.github.io/react-tic-tac-toe/)
 
 In the future, we will create a game like this using HTML/CSS/Javascript as our first
 milestone project! :)))
