@@ -22,6 +22,9 @@ console.log(name)
 ```
 
 
+<br>
+<br>
+
 Variable names should be something that makes sense to its corresponding value.
 
 For instance, we might have a variable that stores the a grocery shopping list.
@@ -40,3 +43,5 @@ What happens if we try to do...
 ```
 var first name = "Sam"
 ```
+
+Returns an error! Javascript thinks that the variable name is simply the word
