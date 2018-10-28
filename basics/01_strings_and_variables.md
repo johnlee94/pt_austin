@@ -175,3 +175,30 @@ i.e.
 ```
 "Dallas, Texas"
 ```
+
+3. **Indexing**
+```
+var myBrokenString = "TherXe are randomY characterZs here!"
+```
+Your task is to console log the X, Y, and Z characters using 3 print statements and string indexing.
+
+BONUS: Make a new variable called myFixedString and assign it the value of myBrokenString,
+but without the random X, Y, and Z characters.
+
+(Hint: You need to use a combination of string slicing and concatenation!)
+
+```
+console.log(myFixedString)
+//should return "There are random characters here!"
+```
+
+4. **WHERE's WALDO?**
+
+Your Task is to console log the string "Waldo" from each of the 3 given string variables
+below using string slicing... Good luck!
+
+```
+let waldoIsHere = "Waldo is my name!"
+let waldoWasHere = "On a sad evening, Waldo was captured and killed.."
+let waldoWillBeHere = "Maybe in another lifetime, I will be able to meet Waldo."
+```
