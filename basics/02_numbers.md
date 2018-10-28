@@ -95,6 +95,8 @@ Then, create another variable called dogYears that converts your age to dog year
 
 Finally, console log dogYears to see how old you would be if you were a doggy!
 
+<br>
+
 2. **Student Scores**
 
 Create a variable that calculates the percent grade of a student's performance on an exam,
@@ -104,12 +106,17 @@ You will create three variables (student's score, max score, and percent)
 
 Finally, print the percent to the console. (Note that percentages should be whole numbers!)
 
+<br>
+
 3. **Create Fahrenheit/Celsius and Fahrenheit/Kelvin Converters**
 
 Create a Fahrenheit to Kelvin (Celsius) Converter
 
 Given a Fahrenheit value, convert it to Celsius.
 Also, given a Fahrenheit value, convert it to Kelvin.
+
+Finally, if we set Fahrenheit to a number, when we console log the celsius and kelvin converters,
+we should get the correct converted numbers outputted.
 
 i.e.
 ```
