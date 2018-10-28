@@ -1,4 +1,5 @@
-### Strings and Variables!
+## Strings and Variables!
+---
 
 ### Variables
 
@@ -44,4 +45,5 @@ What happens if we try to do...
 var first name = "Sam"
 ```
 
-Returns an error! Javascript thinks that the variable name is simply the word
+Returns an error! Javascript thinks that the variable name is simply the word "first",
+and that we are trying to reassign a variable "name" that already exists to another value "Sam"...
