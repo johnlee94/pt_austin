@@ -77,3 +77,89 @@ Boolean('')
 
 Boolean('hello')
 ```
+
+YEAH, YEAH, YEAH BOOLEANS. WHATEVER. SO WHAT?
+
+In programming, Booleans are most often used with conditionals, or comparison statements.
+
+For example...
+
+```
+// The freezing temperature of water is 32 degrees Fahrenheit
+let temp = 50
+let isFreezing = temp === 32
+
+console.log(isFreezing)
+```
+
+What is logged out?
+
+The triple equals (===) is the strict equals comparison operator in JS. It checks to see
+if two values are of same data type and of same value, and then returns a Boolean value.
+
+How could we change the isFreezing to return a Boolean value of true?
+
+Other comparison operators:
+```
+5 == "5"
+
+"string1" !== "string2"
+"nate" != "nate"
+
+5<2
+5<=2
+
+100 > 1
+100 >= 50
+```
+
+The double equals (==) loosely checks if two values are equal in JS. It checks to see if
+they have the same value, but not their data type. That's why the number value of 5 and the
+string value of 5 above return a value of true using this operator.
+
+### Section Wrap-up Exercise
+
+I suddenly win the lotto and want to open up an amusement park in honor of my greatness.
+However, I am confused to how I should manage my amusement park's ticket pricing.
+Would you help me?
+
+First create a variable *age*, and set it equal to your age (You want to visit my park too right?)
+
+Then create another variable *isChild*, and assign it to a conditional to check to see if the person is 7 years of age or younger.
+
+Then create a third variable *isSenior*, and assign it to a conditional to check to see if the person is 65 years or older.
+
+Finally, console log the isChild and isSenior values to see if the person is a child or senior.
+The variables should return a value of type Boolean!
+
+**Sneak Peak Step**
+
+Yay! Now I can check to see if my theme-park-goer is a child or senior. But could we set up a ticket price
+now and discount them if the person is a child or senior?
+
+I think the following prices seem reasonable:
+<ul>
+<li>Regular: $150
+<li> Child: $75
+<li> Senior: $125
+</ul>
+
+Given the variables we created above, how could we do this?
+(We need to use if statements, which we haven't learned yet!)
+
+It looks something like this..
+```
+if(boolean) {
+  //code if boolean is true
+} else if(boolean) {
+  //code if this boolean is true
+} else {
+  //code
+}
+```
+
+Let's make a variable called ticketPrice and set it initially to 0.
+
+Then given our boolean data variables, could we set ticketPrice to the appropriate price?
+
+Finally, console log ticketPrice to check if our code's working.
