@@ -142,7 +142,7 @@ if(temp >= 60 && temp <= 90) {
 
 The && (double Ampersand) is the AND operator. It evaluates to true if both
 conditional statements on the operator's two sides are also true.
-It can be used to check multiple booleans and evaluates to true if all conditionals return true.
+It can be used to check multiple booleans and evaluates to true if ALL conditionals return true.
 
 ```
 true && true && true // -> true
@@ -152,7 +152,8 @@ true && true && false // -> false
 5 + 5 > 8 && 100 < 5 *5 // -> false
 ```
 
-The || (double pipe symbol) is the OR operator. It also can check multiple booleans and ultimately evaluates to
+The || (double pipe symbol) is the OR operator. It evaluates to true if either conditional on the
+sides of the operator is true. It also is used to check multiple booleans and ultimately evaluates to
 true if ONE of the conditionals is true.
 
 In our temperature model, how might we use the OR operator?
@@ -182,3 +183,22 @@ CHALLENGE: What is returned in the following cases and why?
 
 5 + 5 < 8 && 4 == "4" || false
 ```
+<br>
+<br>
+
+### Section Wrap-up Exercises
+
+I am opening up a hip restaurant in LA. It needs to be HIP AF! Being vegan these days
+is all the rage, right?
+
+Given these two variables,
+```
+guestOneIsVegan = true;
+guestTwoIsVegan = false;
+```
+
+Set up an else if code block statement to see what kind of menu items I should serve.
+
+If both guests are vegan, console log "Serve only vegan items!"
+If one of the guests are vegan, console log "Serve some vegan items."
+If none of the guests are vegan, console log "Serve everything!! :D"
