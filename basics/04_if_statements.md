@@ -52,7 +52,7 @@ When the JS interpretor sees the keyword *if*, it checks to see *if* the given
 condition is true, and then runs the code if it is true. If the if() statement runs,
 it will ignore all the *else if* and *else* statements.
 
-However, if the if() statement is NOT run, the JS interpretor will move on to the
+However, if the if() statement is NOT run, the JS interpretor will move on to the next
 *else if* statements one by one. You can have as many else if statments in a code block
 as you need. If any of the else if statements run, the JS interpretor will escape from
 the code block.
@@ -111,3 +111,74 @@ if(day === "Tuesday") {
 ```
 In the case above, EVERY single if() statement is run. That's because each if code block is
 its own domain. Else if and Else statements can ONLY be attached to an if statement!
+
+<br>
+<br>
+
+## Logical AND / OR Operators
+
+How can we check multiple conditions at the same time?
+
+Let's say that a good temperature range (in Fahrenheit) to go outside is between
+60 and 90 degrees. How could we model that using if statements?
+
+We could...
+```
+let temp = 65
+if(temp >= 60) {
+  if (temp <= 90) {
+    console.log("Let's go outside!")
+  }
+}
+```
+
+However, we have a better way using the && operator!
+```
+let temp = 75
+if(temp >= 60 && temp <= 90) {
+  console.log("Let's go outside.")
+}
+```
+
+The && (double Ampersand) is the AND operator. It evaluates to true if both
+conditional statements on the operator's two sides are also true.
+It can be used to check multiple booleans and evaluates to true if all conditionals return true.
+
+```
+true && true && true // -> true
+55 > 10 && "hello" === "hello" && 10 >= 10 // -> true
+
+true && true && false // -> false
+5 + 5 > 8 && 100 < 5 *5 // -> false
+```
+
+The || (double pipe symbol) is the OR operator. It also can check multiple booleans and ultimately evaluates to
+true if ONE of the conditionals is true.
+
+In our temperature model, how might we use the OR operator?
+
+Let's say that it's dangerous to go outside if the tempature is below 0 degrees or
+if the temperature is above 120 degrees.
+
+```
+let temp = 135
+if(temp <= 0 || temp >= 120) {
+  console.log("STOP! It's dangerous out there!")
+}
+```
+
+How about here?
+
+```
+false || false || true // -> true
+5 === 3 || 10 > 2 || 4 < 2 // -> true
+
+false || false || false // -> false
+```
+
+CHALLENGE: What is returned in the following cases and why?
+```
+5 + 5 < 8 || 4 == "4" && 100 > 5
+
+5 + 5 < 8 && 4 == "4" || false
+```

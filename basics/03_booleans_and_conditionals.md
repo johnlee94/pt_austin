@@ -117,6 +117,7 @@ The double equals (==) loosely checks if two values are equal in JS. It checks t
 they have the same value, but not their data type. That's why the number value of 5 and the
 string value of 5 above return a value of true using this operator.
 
+
 ### Section Wrap-up Exercise
 
 I suddenly win the lotto and want to open up an amusement park in honor of my greatness.
