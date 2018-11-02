@@ -34,3 +34,46 @@ lightSwitch()
 // and then on again?
 lightSwitch()
 ```
+
+In the above simple lights example, we create and assign the variable lightIsOn to the
+Boolean value of false (Since it says the room is currently dark 0-0)
+
+Then we create a function to toggle the value of lightIsOn between true and false using the ! or NOT operator.
+The ! operator is used to simply return the opposite of the current Boolean value.
+
+(I know we haven't gone over what a function is yet and you may not know what a function in JS is YET, just know that a function is a special JS tool use to execute specific lines of code in certain situations)
+
+Try in your console:
+```
+!true
+
+!false
+```
+
+What do you think we would get for..
+```
+!!true
+!!!!false
+```
+
+ALL JS values are either *truthy* or *falsey*, or can be evaluated to being true or false.
+
+To check whether a value is truthy of falsey, you can simply run the Boolean() function!
+
+```
+Boolean(true)
+
+Boolean(false)
+
+Boolean(0)
+
+Boolean(1)
+
+Boolean(null)
+
+Boolean(undefined)
+
+Boolean('')
+
+Boolean('hello')
+```
