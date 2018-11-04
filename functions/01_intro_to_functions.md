@@ -56,7 +56,7 @@ square()
 square("number?")
 ```
 
-Note that NaN stands for "Not a Number". This makes sense when you try to square a string. JS returns NaN!
+Note that NaN stands for "Not a Number". This makes sense when you try to square undefined in the first case and a string in the second case. JS returns NaN!
 
 Note that generally speaking, you should always pass the same number of arguments when invoking a function as
 the given defined function asks for.
