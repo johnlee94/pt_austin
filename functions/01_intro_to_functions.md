@@ -56,7 +56,7 @@ square()
 square("number?")
 ```
 
-Note that NaN stands for "Not a Number". This makes sense when you try to square undefined in the first case and a string in the second case. JS returns NaN!
+Note that NaN stands for "Not a Number". This makes sense when you try to square a string. JS returns NaN!
 
 Note that generally speaking, you should always pass the same number of arguments when invoking a function as
 the given defined function asks for.
@@ -124,6 +124,8 @@ Ultimately, we can create and invoke as many functions as needed to solve the pr
 
 ### Exercises
 
+**Shopping**
+
 1. Create a function called add that takes two number parameters and returns the sum of their values.
 
 2. Create a function called finalSalesGenerator that takes in a number value(item retail price), and returns the total cost after sales tax, given a sales tax of 7.75%
@@ -139,3 +141,17 @@ I want to purchase...
 </ul>
 
 Make sure to console log the final value!
+
+<hr>
+
+**Tipping**
+
+Your task is to make a function that calculates the total bill including tip.
+
+Create a function called tipCalculator that takes in two arguments: the total and the tip.
+
+The function should return the final bill after tip is calculated.
+
+Note that if no tip is provided, the function should default it to 15%. However,
+if no "total" argument is provided, instead of returning the final bill, console log
+"A total must be provided".
