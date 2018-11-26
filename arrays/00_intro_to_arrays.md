@@ -1,4 +1,4 @@
-# Javascript Arrays!!!~!~
+# Javascript HArrays!!!~!~
 
 YEAH YEAH!! Arrays are perhaps the most commonly used object in the Javascript language
 (more on what objects are later).
