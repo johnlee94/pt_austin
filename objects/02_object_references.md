@@ -35,7 +35,9 @@ We see that the original object IS modified!!
 What actually happens is that when we pass in the 'account' object into our function, we are actually passing a REFERENCE to the object in memory! In other words, we are able to manipulate the original object's properties by passing in a reference to that object in our function. WHEW!!
 
 <br>
+
 Now what if we did something like...
+
 ```
 function addExpense(account, expense) {
   account = {}
@@ -72,6 +74,7 @@ Notice that when we console log out both sammy and animal at the end, we get bac
 This may be confusing at first, but keep in mind how objects are stored in memory in Javascript. When an object is created in memory, it has a specific location in memory. Anytime we set a variable to equal this object in memory, we are actually setting the variable to equal a reference to that object. You can think of this reference to be like a pointer or signal- it simply 'points' to where that object is being stored. When we created another variable to equal that same object, it is also 'pointing' towards that object in memory.
 
 You can, however, create an entirely new object in memory that looks like another object and then manipulate that new object if you wished to.
+
 ```
 let animal = {
   species: 'dog',
