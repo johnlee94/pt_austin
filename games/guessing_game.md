@@ -13,8 +13,7 @@ Write a program that picks a random integer from 1 to 100, and has players guess
   farther from the number than the previous guess, return "COLDER!"</li>
   <li>On all subsequent turns, if a guess is closer to the number than the previous guess return "WARMER!"
   farther from the number than the previous guess, return "COLDER!"</li>
-  <li><When the player's guess equals the number, tell them they've guessed correctly and how many guesses it took!
-/li>
+  <li><When the player's guess equals the number, tell them they've guessed correctly and how many guesses it took!</li>
 </ul>
 
 ### STEPS
