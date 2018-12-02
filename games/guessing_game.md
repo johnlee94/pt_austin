@@ -35,7 +35,7 @@ Hints:
 <ul>
   <li>It may help to initially sketch out the combinations on paper first.</li>
   <li>You can use the Math.abs() method to find the absolute value of a number.</li>
-  <li>As you push guesses to the guesses array, note that to compare the value of the last guess, you would want to grab the element from the second to last index. [guesses.lenght - 2]</li>
+  <li>As you push guesses to the guesses array, note that to compare the value of the last guess, you would want to grab the element from the second to last index. [guesses.length - 2]</li>
 </ul>
 
 
