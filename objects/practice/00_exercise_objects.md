@@ -13,12 +13,17 @@ var john = {
 }
 ```
 
-2. Add a method to one object you created above called getName that returns a sentence string of the person's name.
+2. Create a function called getHobbies that takes in the "person" object and returns a string sentence. Pass in each object you created above into the function and console log it.
+```
+getHobbies(john) // => "John likes eating, games, and singing"
+```
+
+3. Add a method to one object you created above called getName that returns a sentence string of the person's name.
 ```
 john.getName() => "My name is John Lee"
 ```
 
-3. Add a method to a different object you created above called getHobbies that returns strings for each hobby in the object's "hobbies" property.
+4. Add a method to a different object you created above called getHobbies that returns strings for each hobby in the object's "hobbies" property.
 ```
 john.getHobbies() =>  "I like Eating"
                       "I like Games"
